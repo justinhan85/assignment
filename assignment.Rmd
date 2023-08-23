@@ -2,29 +2,25 @@
 title: "Assignment"
 author: "Ji Hoon Justin Han"
 date: "2023-08-22"
-output: html_document
+output: github_document
 ---
 
-```{r setup, include=FALSE}
-knitr::opts_chunk$set(echo = TRUE)
+```{r}
+library(fishualize)
+library(ggplot2)
+library(fishualize)
+library(dplyr)
+library(raster)
+library(habtools)
 ```
 
-## R Markdown
-
-This is an R Markdown document. Markdown is a simple formatting syntax for authoring HTML, PDF, and MS Word documents. For more details on using R Markdown see <http://rmarkdown.rstudio.com>.
-
-When you click the **Knit** button a document will be generated that includes both content as well as the output of any embedded R code chunks within the document. You can embed an R code chunk like this:
-
-```{r cars}
-summary(cars)
+```{r}
+plot(horseshoe)
 ```
 
-## Including Plots
 
-You can also embed plots, for example:
+# About me
+I am a 5th year PhD student working at Coral Reef Ecology Lab and Hunter Lab. My research focuses on nutrient impacts on coral and coral bleaching. I am taking this course because my research has been mainly focused on colony level physiological changes from stressors, so I believe this is a good opportunity to experience different approaches to studying corals and coral reefs. I want to get out of this class to expand my knowledge about the structural perspective of coral reefs and their role in physiological/ecological changes in corals. I am definitely not super familiar with R program, but I understand the basics of R programs and how coding works. Fun Fact about me is that I am allergic to coral.
 
-```{r pressure, echo=FALSE}
-plot(pressure)
-```
 
-Note that the `echo = FALSE` parameter was added to the code chunk to prevent printing of the R code that generated the plot.
+
